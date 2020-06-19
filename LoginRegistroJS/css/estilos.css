@@ -1,0 +1,23 @@
+body{
+    background:linear-gradient(to right, #000, #FFF);
+}
+
+#login, #registro{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin:30px auto;
+    padding: 30px;
+    background:linear-gradient(to right, rgb(134, 125, 125), #000);
+    color:#FFF;
+    opacity: .9;
+    box-shadow: 10px 10px 10px 0 rgba(0,0,0,.8);
+}
+.contenedor .link{
+    text-decoration: none;
+    color:white;  
+    text-align: right;
+}
+.contenedor a{
+    color :white;
+}
