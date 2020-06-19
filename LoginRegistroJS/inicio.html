@@ -8,10 +8,26 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <div class="contenedor mt-5 container">
+    <div class="contenedor mt-5 container" id="pagina">
     <div class="jumbotron">
         <h1>Hola Chavos</h1>
     </div>
+    <div id="salir">
+        <button class="btn btn-outline-danger" id="btnsalir">Salir</button>
+    </div>
 </div> 
+<script >
+    window.addEventListener('load',function(){
+                if(localStorage.getItem('sesion')==null){
+                    window.location.replace('index.html','_self');
+                }
+    });
+    const boton=document.getElementById('btnsalir');
+    boton.addEventListener('click', function(e){
+       e.preventDefault();
+        localStorage.removeItem('sesion');
+      window.open('index.html','_self');
+    });
+</script>
 </body>
 </html>

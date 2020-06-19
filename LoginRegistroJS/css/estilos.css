@@ -13,11 +13,21 @@ body{
     opacity: .9;
     box-shadow: 10px 10px 10px 0 rgba(0,0,0,.8);
 }
-.contenedor .link{
+ .contenedor .link{
     text-decoration: none;
     color:white;  
     text-align: right;
 }
 .contenedor a{
     color :white;
+}
+#pagina .jumbotron{
+   opacity: .9;
+    background: linear-gradient(to right, rgb(27, 2, 2), rgb(224, 220, 220));
+    color:white;
+}
+div #salir{
+    text-decoration: none;
+    color:white;  
+    text-align: center;
 }
